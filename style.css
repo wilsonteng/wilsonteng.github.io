@@ -7,8 +7,40 @@ body {
   line-height: 1.5;
 }
 
-p {
+h1 {
+  font-size: 40px;
+}
+
+p, li {
   font-size: 20px;
+}
+
+
+a {
+  outline: none;
+}
+
+a:link {
+  color: #6900ff;
+}
+
+a:visited {
+  color: #a5c300;
+}
+
+a:focus {
+  text-decoration: none;
+  background: #bae498;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #cdfeaa;
+}
+
+a:active {
+  background: #6900ff;
+  color: #cdfeaa;
 }
 
 .content {
