@@ -1,15 +1,33 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Source Serif 4', Georgia, Cambria, "Times New Roman", Times, serif;
+  height: 100vh;
+  width: 100vw;
   line-height: 1.5;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(150,200,250,1) 0%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
+}
+
+.content {
+  margin: auto;
+  margin-top:10vh;
+  max-width: 680px;
+  background: none;
+  padding: 10px;
 }
 
 h1 {
   font-size: 42px;
   font-weight: bold;
+}
+
+p, ul {
+  margin-top: 1.3em;
 }
 
 p, li {
@@ -26,7 +44,7 @@ a:link {
 }
 
 a:visited {
-  color: #a5c300;
+  color: #6900ff;
 }
 
 a:focus {
@@ -42,11 +60,4 @@ a:hover {
 a:active {
   background: #6900ff;
   color: #cdfeaa;
-}
-
-.content {
-  max-width: 680px;
-  margin: auto;
-  background: white;
-  padding: 10px;
 }
