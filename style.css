@@ -1,22 +1,22 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
+  background: rgb(255,255,255);
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  width: 100vw;
   line-height: 1.5;
-  background: rgb(255,255,255);
+  width: 100vw;
 }
 
 .content {
+  background: none;
   margin: auto;
   margin-top:10vh;
   max-width: 680px;
-  background: none;
   padding: 10px;
 }
 
@@ -34,10 +34,6 @@ p, li {
 }
 
 
-a {
-  outline: none;
-}
-
 a:link {
   color: #6900ff;
 }
@@ -47,13 +43,13 @@ a:visited {
 }
 
 a:focus {
-  text-decoration: none;
   background: #bae498;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
   background: #cdfeaa;
+  text-decoration: none;
 }
 
 a:active {
