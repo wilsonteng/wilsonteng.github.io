@@ -7,39 +7,38 @@
     <title>Wilson Teng</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.png">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap');
-      </style>
-
-
+      @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap');
+    </style>
   </head>
-  
   <body>
     <div class="content">
-        <h1>Wilson Teng</h1>
-        <p>Hello my name is Wilson. I am currently seeking opportunities in software engineering. Formerly, I competed in professional DOTA 2 tournaments and later managed the Evil Geniuses DOTA 2 squad.</p>
-        <p>You can contact me at <a id="contact" href=""></a><noscript>[Turn on JavaScript to see the email address]</noscript>.</p>
-        
-        <p>Links:</p>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/wilsonteng/">LinkedIn</a></li>
-          <li><a href="https://leetcode.com/wilsonwteng/">LeetCode</a></li>
-          <li><a href="https://github.com/wilsonteng">GitHub</a></li>
-        </ul>
+      <h1>Wilson Teng</h1>
+      <p>Hello my name is Wilson. I am currently seeking opportunities in software engineering. Formerly, I competed in professional DOTA 2 tournaments and later managed the Evil Geniuses DOTA 2 squad.</p>
+      <p>You can contact me at <a id="contact" href=""></a>
+        <noscript>[Turn on JavaScript to see the email address]</noscript>.
+      </p>
+      <p>Links:</p>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/wilsonteng/">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://leetcode.com/wilsonwteng/">LeetCode</a>
+        </li>
+        <li>
+          <a href="https://github.com/wilsonteng">GitHub</a>
+        </li>
+      </ul>
     </div>
-
     <script>
       var encEmail = "d2lsc29uQHdpbHNvbnRlbmcuY29t";
       const contact = document.getElementById("contact");
       contact.setAttribute("href", "mailto:".concat(atob(encEmail)));
       contact.innerText = "".concat(atob(encEmail));
     </script>
-
-
   </body>
 </html>
